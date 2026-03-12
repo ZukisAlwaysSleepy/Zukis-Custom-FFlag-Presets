@@ -122,7 +122,7 @@ If you'd rather not use a bootstrapper:
 ---
 
 ### Checking it worked
-Press **Shift+F9** in-game. Reforged should show `FRM Quality: 21`, FPS presets should show `FRM Quality: 1`. `Technology` will say `Unified` on both visual presets — that's correct, FIB3 is a client-side override.
+Press **Shift+F2** in-game. Reforged should show `FRM Quality: 21`, FPS presets should show `FRM Quality: 1`. `Technology` will say `Unified` on both visual presets — that's correct, FIB3 is a client-side override.
 
 ---
 
@@ -150,8 +150,7 @@ All presets were developed and tested on the following machine:
 | Shift+F3 | Network graph |
 | Shift+F4 | Memory breakdown by category |
 | Shift+F5 | Physics — solver step time |
-| Shift+F8 | Developer console — script output, errors, warnings |
-| Shift+F9 | Client stats overlay — comprehensive dump of all active stats |
+| Shift+F9 | Dev Console — comprehensive dump of all active stats |
 
 ---
 
