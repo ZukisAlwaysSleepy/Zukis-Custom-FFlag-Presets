@@ -1,0 +1,68 @@
+{
+    "_comment": "Midnight Chasers - Cinematic/Recording config | GTX 1650 | Stable 60fps",
+
+    "DFFlagDisableDPIScale": "True",
+    "DFIntTaskSchedulerTargetFps": "60",
+    "FFlagTaskSchedulerLimitTargetFpsTo240": "false",
+
+    "_comment_lighting": "FutureIsBright Phase 3 - best lighting Roblox has",
+    "FFlagDebugForceFutureIsBrightPhase3": "true",
+    "FFlagDebugForceFutureIsBrightPhase2": "false",
+    "FFlagDebugForceFutureIsBrightPhase1": "false",
+    "DFFlagDebugRenderForceTechnologyVoxel": "false",
+    "FFlagNewLightAttenuation": "true",
+    "FFlagFastGPULightCulling3": "true",
+
+    "_comment_shadows": "High quality shadow mapping",
+    "FFlagGraphicsEnableNewShadowTechnology": "true",
+    "FFlagRenderLocalLightShadows": "true",
+    "FIntRenderShadowIntensity": "3",
+    "FIntRenderShadowmapSize": "2048",
+    "FIntRenderShadowmapBias": "0",
+    "FIntRenderLocalLightFadeStartDistance": "50",
+    "FIntRenderLocalLightFadeEndDistance": "100",
+    "FIntRenderLocalLightUpdatesMax": "16",
+    "FIntRenderLocalLightUpdatesMin": "8",
+
+    "_comment_atmosphere_postfx": "Full visual effects enabled",
+    "FFlagRenderAtmosphere": "true",
+    "FFlagDisablePostFX": "false",
+    "FFlagDebugSkyGray": "false",
+
+    "_comment_antialiasing": "MSAA 4x. Performance booosting, less detail. Middle ground setting",
+    "FIntDebugForceMSAASamples": "4",
+    "FIntDebugFRMOptionalMSAALevelOverride": "4",
+
+    "_comment_quality": "Modern Rendering Pipeline and Better Graphic Overrides",
+    "FFlagDebugGraphicsPreferD3D11": "true",
+    "FIntDebugGraphicsQualityOverride": "21",
+    "FIntDebugForceFrameRateManager": "0",
+    "FIntRenderDistance": "100000",
+
+    "_comment_grass": "Natural grass movement",
+    "FIntGrassMovementReducedMotionFactor": "25",
+    "FIntFRMMaxGrassDistance": "300",
+    "FIntFRMMinGrassDistance": "50",
+
+    "_comment_textures": "Full texture quality",
+    "FFlagPreloadTextureData": "true",
+    "FIntDebugTextureManagerSkipMips": "0",
+    "FIntTerrainArraySliceSize": "4",
+    "DFIntTextureCompositorActiveJobs": "2",
+
+    "_comment_cpu": "Balanced threading for stable 60fps recording",
+    "FIntRuntimeMaxNumOfThreads": "12",
+    "FIntTaskSchedulerThreadCount": "12",
+
+    "_comment_telemetry": "Telemetry off to reduce background overhead",
+    "FFlagDebugDisableTelemetryEphemeralCounter": "true",
+    "FFlagDebugDisableTelemetryEphemeralStat": "true",
+    "FFlagDebugDisableTelemetryEventIngest": "true",
+    "FFlagDebugDisableTelemetryPoint": "true",
+
+    "_comment_lod": "CSG LOD pushed far for detail",
+    "DFIntCSGLevelOfDetailSwitchingDistance": "1000",
+    "DFIntCSGLevelOfDetailSwitchingDistanceL12": "2000",
+    "DFIntCSGLevelOfDetailSwitchingDistanceL23": "3000",
+    "DFIntCSGLevelOfDetailSwitchingDistanceL34": "4000"
+}
