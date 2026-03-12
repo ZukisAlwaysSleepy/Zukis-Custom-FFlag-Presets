@@ -1,0 +1,96 @@
+{
+    "DFFlagDisableDPIScale": "True",
+    "DFIntTaskSchedulerTargetFps": "60",
+    "FFlagTaskSchedulerLimitTargetFpsTo240": "false",
+
+    "FFlagDebugForceFutureIsBrightPhase3": "true",
+    "FFlagDebugForceFutureIsBrightPhase2": "false",
+    "FFlagDebugForceFutureIsBrightPhase1": "false",
+    "DFFlagDebugRenderForceTechnologyVoxel": "false",
+    "FFlagNewLightAttenuation": "true",
+    "FFlagFastGPULightCulling3": "true",
+    "FFlagRenderLocalLightShadows": "true",
+    "FFlagGraphicsEnableNewShadowTechnology": "true",
+
+    "FIntRenderShadowIntensity": "4",
+    "FIntRenderShadowmapSize": "8192",
+    "FIntRenderShadowmapBias": "-150",
+    "FIntRenderShadowmapResolution": "8192",
+    "DFIntRenderShadowmapBias": "-150",
+    "FFlagRenderShadowHighQuality": "true",
+    "FIntRenderShadowmapCascadeCount": "4",
+    "FIntRenderShadowmapCascadeDistribution": "2",
+    "FIntRenderShadowmapMaxDistance": "200",
+    "FIntRenderShadowmapMinDistance": "0",
+    "FIntRenderShadowNearPlane": "0",
+
+    "FIntRenderLocalLightFadeStartDistance": "200",
+    "FIntRenderLocalLightFadeEndDistance": "400",
+    "FIntRenderLocalLightUpdatesMax": "16",
+    "FIntRenderLocalLightUpdatesMin": "8",
+    "FIntRenderLocalLightFadeInMs": "0",
+
+    "FFlagRenderAmbientOcclusion": "true",
+    "FFlagRenderAmbientOcclusionInner": "true",
+    "FIntRenderAmbientOcclusionSamples": "32",
+    "FIntRenderAmbientOcclusionRadius": "3",
+    "FIntRenderAmbientOcclusionIntensity": "2",
+    "FIntRenderAmbientOcclusionBlurRadius": "1",
+
+    "FIntRenderCharacterShadowFarDistance": "500",
+    "FIntRenderCharacterShadowNearDistance": "0",
+    "FFlagRenderCharacterShadows": "true",
+    "FIntRenderCharacterShadowResolution": "4096",
+    "FFlagRenderCharacterShadowsHighQuality": "true",
+
+    "FFlagRenderAtmosphere": "true",
+    "FFlagDisablePostFX": "false",
+    "FFlagDebugSkyGray": "false",
+    "FFlagRenderNoLod": "true",
+    "FFlagGlobalWindRendering": "true",
+    "FFlagGlobalWindActivated": "true",
+
+    "FFlagDebugGraphicsPreferD3D11": "true",
+    "FIntDebugGraphicsQualityOverride": "21",
+    "DFIntDebugFRMQualityLevelOverride": "21",
+    "FIntDebugForceFrameRateManager": "0",
+    "FIntRenderDistance": "150000",
+
+    "DFIntRenderClampRoughnessMax": "-640000000",
+    "FFlagEnableReflectionsTransparency": "true",
+    "FFlagRenderEnableGlobalIllumination": "true",
+    "FFlagEnableOutdoorAmbientIBL": "true",
+    "FFlagRenderSkyboxCubeMapResolution": "true",
+
+    "FIntDebugForceMSAASamples": "8",
+    "FIntDebugFRMOptionalMSAALevelOverride": "8",
+
+    "FIntRenderAnisotropy": "16",
+    "FIntRenderAnisotropyLevel": "16",
+
+    "FIntGrassMovementReducedMotionFactor": "15",
+    "FIntFRMMaxGrassDistance": "500",
+    "FIntFRMMinGrassDistance": "50",
+    "FIntRenderGrassDetailStrands": "100",
+    "FIntRenderGrassHeightScaler": "100",
+
+    "FFlagPreloadTextureData": "true",
+    "FIntDebugTextureManagerSkipMips": "0",
+    "FIntTerrainArraySliceSize": "8",
+    "DFIntTextureCompositorActiveJobs": "4",
+    "DFFlagTextureQualityOverrideEnabled": "true",
+    "DFIntTextureQualityOverride": "3",
+
+    "DFIntCSGLevelOfDetailSwitchingDistance": "5000",
+    "DFIntCSGLevelOfDetailSwitchingDistanceL12": "10000",
+    "DFIntCSGLevelOfDetailSwitchingDistanceL23": "15000",
+    "DFIntCSGLevelOfDetailSwitchingDistanceL34": "20000",
+
+    "FIntRuntimeMaxNumOfThreads": "12",
+    "FIntTaskSchedulerThreadCount": "12",
+
+    "FFlagDebugDisableTelemetryEphemeralCounter": "true",
+    "FFlagDebugDisableTelemetryEphemeralStat": "true",
+    "FFlagDebugDisableTelemetryEventIngest": "true",
+    "FFlagDebugDisableTelemetryPoint": "true"
+}

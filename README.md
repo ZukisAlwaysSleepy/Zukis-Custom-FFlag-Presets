@@ -9,6 +9,8 @@ A collection of Roblox client flag configs I've built and tested. Each preset ha
 ```
 /FPS Presets
     Zukis Complete Comp Overhaul.json
+    /Archive
+        performance_fps.json
 
 /Networking + Physics Flags
     Stupid FPS multi client.json
@@ -17,6 +19,13 @@ A collection of Roblox client flag configs I've built and tested. Each preset ha
     Remarkably Beautiful - Reforged V6.4a.json
     Remarkably Beautiful V6 (Final).json
     /Archive
+        cinematic_v5.2_LATEST.json
+        cinematic_v5.1.json
+        cinematic_v5.json
+        cinematic_v4_reconstructed.json
+        cinematic_v3_reconstructed.json
+        cinematic_v2_reconstructed.json
+        cinematic_v1_earliest_stable.json
         Remarkably Beautiful V0.9b (Stable - Archived).json
 
 README.md
@@ -27,26 +36,48 @@ DOCS.md
 
 ## Presets
 
-### Remarkably Beautiful — Reforged `V6.4a`
-The main visual preset. Started as a shadow investigation on V0.9b and went through six major versions — full FIB3 pipeline, cascaded shadowmaps, cubemap capture, IBL, GI, AO, fresnel, the lot. V6 is in the same folder, and the original V0.9b that started it all is in the Archive subfolder.
+### Visual Flags
+
+#### Remarkably Beautiful — Reforged `V6.4a` ← current
+The main visual preset. Started as a shadow investigation on V0.9b and went through a full version history to get here — FIB3 pipeline, cascaded shadowmaps, cubemap capture, IBL, GI, AO, fresnel, the lot. Full version history in DOCS.md.
 
 Works on any game. Tested on Midnight Chasers (City map and Boneville Salt Flats). RTX-class GPU and 16GB+ RAM recommended for best results, though it was developed entirely on a GTX 1650.
 
+#### Remarkably Beautiful `V6 (Final)`
+The last stable build before the Reforged naming transition. Archived in the Visual Flags folder alongside V6.4a.
+
+#### Archive
+All earlier iterations kept for reference. Reconstructed versions are noted as such — values were verified against available files.
+
+| File | Notes |
+|---|---|
+| `cinematic_v5.2_LATEST.json` | Last version before V6 naming. First bias tuning (-150), cascade dist locked to 2, MSAA pushed to 8x. |
+| `cinematic_v5.1.json` | Anisotropy added (16x), AO samples raised to 32, cascade dist 3. |
+| `cinematic_v5.json` | AO intensity corrected to 2, char shadow far distance extended to 500. |
+| `cinematic_v4_reconstructed.json` | Char shadow res raised to 4096, cascade dist 10, HQ char shadows added. |
+| `cinematic_v3_reconstructed.json` | Cascade dist 7, HQ char shadows added, NearClip removed. |
+| `cinematic_v2_reconstructed.json` | Cascade dist override to 8, NearClip added. |
+| `cinematic_v1_earliest_stable.json` | Earliest recovered build. Shadow intensity 7, AO intensity 5, all aggressive early values. |
+| `Remarkably Beautiful V0.9b (Stable - Archived).json` | Origin config. No AO, no GI, no IBL, shadowmap 2048, built for stable 60fps recording. |
+
 ---
 
-### Remarkably Beautiful `V0.9b` ← where it started
-The original config. Built for stable 60fps cinematic recording on a GTX 1650. Conservative across the board — shadowmap at 2048, no bias tuning, MSAA 4x, threads at 12, render distance 100k, grass distance 300, no reflection stack, no roughness floor push. Everything in V6.4a is a direct evolution of what started here.
+### FPS Presets
 
-Kept in `/Visual Flags/Archive` for reference.
-
----
-
-### Zukis Complete Comp Overhaul
+#### Zukis Complete Comp Overhaul ← current base
 Pure FPS config. Voxel lighting, everything visual stripped back, built for competitive play and squeezing frames. This is the base that Stupid FPS multi client was built on top of.
 
+#### Archive
+
+| File | Notes |
+|---|---|
+| `performance_fps.json` | Predates Comp Overhaul naming. Identical base with four extra flags that were carried forward into Stupid FPS. |
+
 ---
 
-### Stupid FPS Multi Client
+### Networking + Physics Flags
+
+#### Stupid FPS Multi Client ← current
 The FPS preset extended with a confirmed-working network and physics layer. MTU tuning, physics solver quality, ownership transfer timing, GPU/CPU culling stack, memory capped for multi-client dev use.
 
 Tested on Midnight Chasers and Sniper Arena (FFA, 8 players active). Confirmed results vs Reforged on the same hardware:
